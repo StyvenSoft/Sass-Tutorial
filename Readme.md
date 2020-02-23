@@ -26,10 +26,10 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 
 **Cap 2**
 
-- [ ] Real-World Example From Scratch (Portfolio Site)
-- [ ] index.html
-- [ ] Font Awesome Setup
-- [ ] main.scss / _config.scss
+- [x] Real-World Example From Scratch (Portfolio Site)
+- [x] index.html
+- [x] Font Awesome Setup
+- [x] main.scss / _config.scss
 - [ ] _home.scss
 - [ ] Transition Ease Mixin
 - [ ] Text Color Function

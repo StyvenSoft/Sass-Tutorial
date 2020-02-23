@@ -1,0 +1,15 @@
+@import './config';
+
+body{
+    background-color: $primary-color;
+    color: $white;
+    height: 100vh;
+    font-family: $font-family;
+}
+h1, h2, h3{
+    font-weight: 400;
+}
+a {
+    color: $white;
+    text-decoration: none;
+}
