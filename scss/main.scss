@@ -19,20 +19,42 @@
     }
 }
 
+@mixin  mobile {
+    @media (max-width: $mobile) {
+       @content;
+    }
+}
+
 body{
     background-color: $primary-color;
     color: $text-color;
 }
+.title{
+    text-align: center;
+    margin: 1rem 0;
+}
 .main{
     @include flexCenter(row);
-    width: 80%;
+    width: calc(80% - 40%);
     margin: 1rem auto;
-    #{&}__paragraph{
+    #{&}__paragraph1{
         font-weight: weight(bold);
         margin: 1rem;
         &:hover{
             color: pink;
         }
+    }
+
+    #{&}__paragraph2{
+        @extend .main__paragraph1;
+
+        &:hover{
+            color: $accent-color;
+        }
+    }
+
+    @include mobile{
+        flex-direction: column;
     }
 }
 .light{

@@ -10,6 +10,11 @@ body {
   color: #fff;
 }
 
+.title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -24,17 +29,30 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  width: 80%;
+  width: calc(80% - 40%);
   margin: 1rem auto;
 }
 
-.main .main__paragraph {
+.main .main__paragraph1, .main .main__paragraph2 {
   font-weight: 700;
   margin: 1rem;
 }
 
-.main .main__paragraph:hover {
+.main .main__paragraph1:hover, .main .main__paragraph2:hover {
   color: pink;
+}
+
+.main .main__paragraph2:hover {
+  color: #ff652f;
+}
+
+@media (max-width: 800px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .light {

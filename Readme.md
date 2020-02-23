@@ -18,11 +18,11 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] Partials
 - [x] Functions
 - [x] Mixin Example 1
-- [ ] Mixin Example 2
-- [ ] Mixin Example 3
-- [ ] Extend
-- [ ] Math Operations
-- [ ] How to Learn More (Documentation)
+- [x] Mixin Example 2
+- [x] Mixin Example 3
+- [x] Extend
+- [x] Math Operations
+- [x] How to Learn More [Documentation](https://sass-lang.com/documentation)
 
 **Cap 2**
 
