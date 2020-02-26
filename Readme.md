@@ -30,8 +30,8 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] index.html
 - [x] Font Awesome Setup
 - [x] main.scss / _config.scss
-- [ ] _home.scss
-- [ ] Transition Ease Mixin
+- [x] _home.scss
+- [x] Transition Ease Mixin
 - [ ] Text Color Function
 - [ ] _menu.scss
 - [ ] main.js
