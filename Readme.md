@@ -32,9 +32,9 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] main.scss / _config.scss
 - [x] _home.scss
 - [x] Transition Ease Mixin
-- [ ] Text Color Function
-- [ ] _menu.scss
-- [ ] main.js
+- [x] Text Color Function
+- [x] _menu.scss
+- [x] main.js
 - [ ] Menu cont.
 - [ ] about.html
 - [ ] _about.scss
