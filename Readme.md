@@ -36,8 +36,8 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] _menu.scss
 - [x] main.js
 - [x] Menu cont.
-- [ ] about.html
-- [ ] _about.scss
+- [x] about.html
+- [x] _about.scss
 - [ ] projects.html
 - [ ] _projects.scss
 - [ ] contact.html
