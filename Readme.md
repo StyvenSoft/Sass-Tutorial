@@ -35,7 +35,7 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] Text Color Function
 - [x] _menu.scss
 - [x] main.js
-- [ ] Menu cont.
+- [x] Menu cont.
 - [ ] about.html
 - [ ] _about.scss
 - [ ] projects.html
