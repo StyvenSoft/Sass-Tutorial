@@ -38,8 +38,8 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] Menu cont.
 - [x] about.html
 - [x] _about.scss
-- [ ] projects.html
-- [ ] _projects.scss
+- [x] projects.html
+- [x] _projects.scss
 - [ ] contact.html
 - [ ] _contact.scss
 - [ ] _responsive.scss
