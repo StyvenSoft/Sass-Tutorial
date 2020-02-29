@@ -40,8 +40,8 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] _about.scss
 - [x] projects.html
 - [x] _projects.scss
-- [ ] contact.html
-- [ ] _contact.scss
+- [x] contact.html
+- [x] _contact.scss
 - [ ] _responsive.scss
 - [ ] Deploy on Github Pages
 
