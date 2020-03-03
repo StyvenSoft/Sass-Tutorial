@@ -4,6 +4,8 @@ In this course, you will learn the basics of Sass. We will start with a brief ov
 
 Lastly, we will start from scratch on a real-world project (Portfolio website) using Sass. We will go step-by-step through each part, and at the end, we will deploy the site.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c1a97caa-d9c2-4c98-8ce7-bea69457ec57/deploy-status)](https://app.netlify.com/sites/steveenecheverry/deploys)
+
 ## **Course Contents**
 
 **Cap 1**
@@ -42,8 +44,8 @@ Lastly, we will start from scratch on a real-world project (Portfolio website) u
 - [x] _projects.scss
 - [x] contact.html
 - [x] _contact.scss
-- [ ] _responsive.scss
-- [ ] Deploy on Github Pages
+- [x] _responsive.scss
+- [x] Deploy on Github Pages (Netlify)
 
 ---
 
