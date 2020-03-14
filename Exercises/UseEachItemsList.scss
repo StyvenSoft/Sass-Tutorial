@@ -1,0 +1,45 @@
+// Sass también ofrece la @eachdirectiva que recorre cada elemento en una lista o mapa
+
+@each $color in blue, red, green {
+    .#{$color}-text {color: $color;}
+}
+
+
+// Un mapa tiene una sintaxis ligeramente diferente. Aquí hay un ejemplo:
+
+$colors: (color1: blue, color2: red, color3: green);
+
+@each $key, $color in $colors {
+  .#{$color}-text {color: $color;}
+}
+
+// ejemplos de código anteriores se convierten en el siguiente CSS
+
+.blue-text {
+    color: blue;
+  }
+  
+  .red-text {
+    color: red;
+  }
+  
+  .green-text {
+    color: green;
+  }
+
+  // Exercise 
+
+$color-bg: (color1: blue, color2: black, color3: red);
+
+@each $key, $color in $color-bg {
+  .#{$color}-bg {background-color: $color;  }
+} 
+
+div {
+    height: 200px;
+    width: 200px;
+}
+
+// <div class="blue-bg"></div>
+// <div class="black-bg"></div>
+// <div class="red-bg"></div>

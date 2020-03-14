@@ -1,0 +1,28 @@
+// la anidación puede ayudar a organizar su código al colocar 
+//reglas de estilo secundario dentro de los elementos principales respectivos
+
+nav {
+    background-color: red;
+  
+    ul {
+      list-style: none;
+  
+      li {
+        display: inline-block;
+      }
+    }
+  }
+
+// Example
+
+.blog-post {
+    h1 {
+      text-align: center;
+      color: blue;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+  
+  

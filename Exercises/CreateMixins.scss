@@ -1,0 +1,51 @@
+/*
+En Sass, un mixin es un grupo de declaraciones CSS que se pueden reutilizar en toda la hoja de estilos.
+*/
+
+// Los mixins son como funciones para CSS. Aquí está cómo escribir uno
+
+@mixin box-shadow($x, $y, $blur, $c){ 
+    -webkit-box-shadow: $x, $y, $blur, $c;
+    -moz-box-shadow: $x, $y, $blur, $c;
+    -ms-box-shadow: $x, $y, $blur, $c;
+    box-shadow: $x, $y, $blur, $c;
+}
+
+// Se llama un mixin con la @includedirectiva
+
+div {
+    @include box-shadow(0px, 0px, 4px, #fff);
+  }
+
+  // Example 
+
+@mixin border-radius($radius){
+-webkit-border-radius: $radius;
+-moz-border-radius: $radius;
+-ms-border-radius: $radius;
+border-radius: $radius;
+}
+ 
+ 
+#awesome {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    @include border-radius(15px);
+}
+
+// Example mixin
+
+@mixin border-stroke($val){
+    @if $val == light {
+        border: 1px solid black;
+    }@else if $val == medium {
+        border: 3px solid black;
+    }@else if $val == heavy {
+        border: 6px solid black;
+    }@else{
+        border: none;
+    }
+  } 
+
+
