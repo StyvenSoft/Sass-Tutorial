@@ -1,0 +1,38 @@
+// Los "Partials"  en Sass son archivos separados que contienen segmentos de código CSS
+
+// Estos se importan y se usan en otros archivos Sass.
+// Esta es una excelente manera de agrupar código similar en un módulo para mantenerlo organizado.
+
+// Para llevar el código en el parcial a otro archivo Sass, use la @importdirectiva.
+
+// In the main.scss file
+
+@import 'mixins';
+@import 'variables';
+
+// Extienda un conjunto de estilos CSS a otro elemento
+// Sass tiene una característica llamada extendque facilita tomar prestadas las reglas CSS 
+//de un elemento y construir sobre ellas en otro.
+
+.big-panel{
+    @extend .panel;
+    width: 150px;
+    font-size: 2em;
+}
+
+// Example 
+
+h3{
+    text-align: center;
+  }
+  .info{
+    width: 200px;
+    border: 1px solid black;
+    margin: 0 auto;
+  }
+.info-important{
+    @extend .info;
+    background-color: magenta;
+  }
+
+  
