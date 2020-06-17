@@ -1,1 +1,15 @@
 dist/css/main.css.map
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map

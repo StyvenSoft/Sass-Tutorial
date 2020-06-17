@@ -1,0 +1,22 @@
+{
+  "name": "sass-tutorial",
+  "version": "1.0.0",
+  "description": "Compiling Sass learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StyvenSoft/Sass-Tutorial.git"
+  },
+  "author": "Steveen Echeverri",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StyvenSoft/Sass-Tutorial/issues"
+  },
+  "homepage": "https://github.com/StyvenSoft/Sass-Tutorial#readme",
+  "devDependencies": {
+    "sass": "^1.26.8"
+  }
+}
